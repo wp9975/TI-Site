@@ -16,6 +16,8 @@
   clear: both;
 }
 
+
+
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
@@ -71,6 +73,7 @@
 /* Next & previous buttons */
 .prev,
 .next {
+ background-color: #777;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -86,10 +89,16 @@
   -webkit-user-select: none;
 }
 
+
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.prev{
+    left: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -134,14 +143,25 @@ img.hover-shadow {
 
 .gone{
     width: auto;
-    height: 250px;
+    height: 200px;
     margin: 25px;
+    overflow: hidden;
+    padding: 0;
+    border:1px solid #000;
     
 }
 
+.gone img{
+    transition-duration: 3s;
+    margin: 0 auto;
+    display: block;
+}
+
 .gone:hover{
-    height: 265px;
-    width: auto;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
     
 }
 
@@ -150,13 +170,22 @@ img{
     width: auto;
 }
 
-.smalls{
+.small{
     height: 50px;
     width: auto;
 }
 
+td{
+    height: 33%;
+    width: 33%;
+    
+}
 
-
+#pasek{
+    cursor: pointer;
+    display: inline-block;
+    height: 100px;
+}
 
 /*
 div.gallery {
