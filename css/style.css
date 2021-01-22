@@ -136,6 +136,7 @@ footer {
 #dom {
     height: auto;
     width: 95%;
+    float: right;
     text-align: right;
 }
 
@@ -151,26 +152,29 @@ footer {
 }
 
 .socialm {
-    height: 170px;
+    height: auto;
     width: auto;
-    float:none;
-    display: inline-block;
-    padding: 10px;
+    float:right;
+    display: inline;
+   
+    
 
 }
 
 #kontakt {
     height: 40%;
-    width: 40%;
+    width: 50%;
+}
+#socjal{
+    width: 50%;
+    height: 10%;
+    ;
 }
 
-#socjal {
-    height: 10%;
-    width: 40%;
-}
 
 
 .socialm img {
-    height: 30%;
+    width: 30%;
     margin: 5px;
+    display: inline-block;
 }
