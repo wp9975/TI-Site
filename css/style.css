@@ -1,15 +1,14 @@
-
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
 
 
 
-html{
+html {
     height: 100%;
     width: 100%;
 
 }
 
-body{
+body {
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -19,15 +18,15 @@ body{
 
 }
 
-section{
-    height:100%;
+section {
+    height: 100%;
     width: 100%;
-    position:fixed ;
+    position: fixed;
     background: url("../img/background4.jpg") no-repeat;
     background-size: calc(100% + 150px);
     overflow: hidden;
-    overflow-y : auto;
-    
+    overflow-y: auto;
+
 }
 
 
@@ -40,47 +39,47 @@ nav {
     display: inline-block;
 }
 
-.menu{
+.menu {
 
     display: inline-block;
     margin: 0 10px 0 10px;
     cursor: pointer;
-    
+
 }
 
-.menu-icons{
+.menu-icons {
     float: left;
 }
 
 nav a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 nav a:hover {
-  background-color: #000;
+    background-color: #000;
 }
 
 
 @media screen and (max-width: 500px) {
-  nav a {
-    float: none;
-    display: block;
-  }
+    nav a {
+        float: none;
+        display: block;
+    }
 }
 
-.socialm{
+.socialm {
     height: 100%;
     display: inline-block;
-    margin: 0 40px 0 10px; 
+    margin: 0 40px 0 10px;
     cursor: pointer;
     float: right
 }
 
-.socialm img:hover{
+.socialm img:hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
@@ -88,91 +87,90 @@ nav a:hover {
 }
 
 header {
-    
+
     width: 100%;
     height: auto;
     float: left;
     text-align: center;
-    
+
 }
 
 .active {
-  background-color: #4CAF50;
+    background-color: #4CAF50;
 }
 
 
 article {
-    background-color:rgb(1,1,1, 0.6);
+    background-color: rgb(1, 1, 1, 0.6);
     width: 50%;
-    height: 70%;
+    height: 80%;
     text-align: center;
-    color:white;
-	position: absolute; 
-	margin: auto;  
-	top: 0;  
-	right: 0;  
-	bottom: 0;  
-	left: 0;
-   
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 35px;
+    left: 0;
+
 }
 
 
 
-footer{
+footer {
     background-color: #555;
     width: 100%;
     text-align: center;
     color: white;
     clear: both;
     position: fixed;
-	height: 20px;
-	bottom: 0;  
+    height: 20px;
+    bottom: 0;
 }
 
-#domtd{
+#domtd {
     height: 50%;
     width: 60%;
 }
 
-#dom{
+#dom {
     height: auto;
-    width:95%; 
+    width: 95%;
     text-align: right;
 }
 
-#animlogo{
-    position: absolute; 
-	margin: auto;  
-	top: 0;  
-	right: 0;  
-	bottom: 0;  
-	left: 0;
-   
+#animlogo {
+    height: 50vh;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
 }
 
-.socialm{
-    height: 250px;
+.socialm {
+    height: 170px;
     width: auto;
-    position: relative;
+    float:none;
     display: inline-block;
     padding: 10px;
-    
+
 }
 
-#kontakt{
+#kontakt {
     height: 40%;
     width: 40%;
 }
 
-#socjal{
+#socjal {
     height: 10%;
     width: 40%;
 }
 
 
-.socialm  img{
+.socialm img {
     height: 30%;
     margin: 5px;
 }
-
-
